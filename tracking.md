@@ -346,4 +346,163 @@ http://121.42.148.192:8080/
 On branch master
 Your branch is up-to-date with 'origin/master'.
 
-Changes 
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   code.py[m
+	[31mmodified:   templates/index.html[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mMovieSite.db[m
+	[31mcode.pyc[m
+	[31msqllite.sql[m
+	[31mtracking.md[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# git add .[K[K[K[K[K[K[K[K[K
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# 
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# 
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# 
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# ls -lrt
+total 88
+-rw-r--r-- 1 root root    31 Apr  7 00:18 README.md
+-rw-r--r-- 1 root root  1997 Apr 12 19:52 sqllite.sql
+-rw-r--r-- 1 root root  3072 Apr 12 19:54 MovieSite.db
+-rw-r--r-- 1 root root   327 Apr 12 19:56 code.py
+-rw-r--r-- 1 root root   789 Apr 12 19:57 code.pyc
+drwxr-xr-x 2 root root  4096 Apr 12 20:00 [0m[01;34mtemplates[0m
+-rw-r--r-- 1 root root 61440 Apr 12 21:17 tracking.md
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# 
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# 
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# ls -la
+total 100
+drwxr-xr-x  4 root root  4096 Apr 12 19:57 [0m[01;34m.[0m
+drwx------ 19 root root  4096 Apr 12 20:00 [01;34m..[0m
+-rw-r--r--  1 root root   327 Apr 12 19:56 code.py
+-rw-r--r--  1 root root   789 Apr 12 19:57 code.pyc
+drwxr-xr-x  8 root root  4096 Apr 12 21:17 [01;34m.git[0m
+-rw-r--r--  1 root root  3072 Apr 12 19:54 MovieSite.db
+-rw-r--r--  1 root root    31 Apr  7 00:18 README.md
+-rw-r--r--  1 root root  1997 Apr 12 19:52 sqllite.sql
+drwxr-xr-x  2 root root  4096 Apr 12 20:00 [01;34mtemplates[0m
+-rw-r--r--  1 root root 61440 Apr 12 21:17 tracking.md
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# cd .git/
+]0;root@rocky: ~/webpy/.gitroot@rocky:~/webpy/.git# ls
+[0m[01;34mbranches[0m  COMMIT_EDITMSG  config  description  FETCH_HEAD  HEAD  [01;34mhooks[0m  index  [01;34minfo[0m  [01;34mlogs[0m  [01;34mobjects[0m  ORIG_HEAD  [01;34mrefs[0m
+]0;root@rocky: ~/webpy/.gitroot@rocky:~/webpy/.git# ls -lrt
+total 52
+drwxr-xr-x  2 root root 4096 Apr  7 00:12 [0m[01;34minfo[0m
+drwxr-xr-x  2 root root 4096 Apr  7 00:12 [01;34mhooks[0m
+-rw-r--r--  1 root root   23 Apr  7 00:12 HEAD
+-rw-r--r--  1 root root   73 Apr  7 00:12 description
+drwxr-xr-x  2 root root 4096 Apr  7 00:12 [01;34mbranches[0m
+drwxr-xr-x  3 root root 4096 Apr  7 00:14 [01;34mlogs[0m
+-rw-r--r--  1 root root   27 Apr  7 00:14 COMMIT_EDITMSG
+drwxr-xr-x  5 root root 4096 Apr  7 00:16 [01;34mrefs[0m
+-rw-r--r--  1 root root   95 Apr  7 00:18 FETCH_HEAD
+-rw-r--r--  1 root root   41 Apr  7 00:18 ORIG_HEAD
+drwxr-xr-x 15 root root 4096 Apr  7 00:19 [01;34mobjects[0m
+-rw-r--r--  1 root root  331 Apr  7 00:20 index
+-rw-r--r--  1 root root  262 Apr  7 00:20 config
+]0;root@rocky: ~/webpy/.gitroot@rocky:~/webpy/.git# 
+]0;root@rocky: ~/webpy/.gitroot@rocky:~/webpy/.git# 
+]0;root@rocky: ~/webpy/.gitroot@rocky:~/webpy/.git# cd ..
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# ls -lrt
+total 88
+-rw-r--r-- 1 root root    31 Apr  7 00:18 README.md
+-rw-r--r-- 1 root root  1997 Apr 12 19:52 sqllite.sql
+-rw-r--r-- 1 root root  3072 Apr 12 19:54 MovieSite.db
+-rw-r--r-- 1 root root   327 Apr 12 19:56 code.py
+-rw-r--r-- 1 root root   789 Apr 12 19:57 code.pyc
+drwxr-xr-x 2 root root  4096 Apr 12 20:00 [0m[01;34mtemplates[0m
+-rw-r--r-- 1 root root 61440 Apr 12 21:17 tracking.md
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# 
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# 
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# git add .
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   MovieSite.db[m
+	[32mmodified:   code.py[m
+	[32mnew file:   code.pyc[m
+	[32mnew file:   sqllite.sql[m
+	[32mmodified:   templates/index.html[m
+	[32mnew file:   tracking.md[m
+
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# git commit -m ""a"d"d" "s"q"l"l"i"t"e"
+[master 64127e1] add sqllite
+ 6 files changed, 376 insertions(+), 7 deletions(-)
+ create mode 100644 MovieSite.db
+ create mode 100644 code.pyc
+ create mode 100644 sqllite.sql
+ create mode 100644 tracking.md
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# 
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# 
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# 
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   tracking.md[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# 
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# 
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# git push [K[K[K[K[Kinfo
+git: 'info' is not a git command. See 'git --help'.
+
+Did you mean one of these?
+	init
+	mailinfo
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# 
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# 
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# 
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# git ls -lr[K[K[K[K[K[K[K[K[K[Kls -lrt
+total 92
+-rw-r--r-- 1 root root    31 Apr  7 00:18 README.md
+-rw-r--r-- 1 root root  1997 Apr 12 19:52 sqllite.sql
+-rw-r--r-- 1 root root  3072 Apr 12 19:54 MovieSite.db
+-rw-r--r-- 1 root root   327 Apr 12 19:56 code.py
+-rw-r--r-- 1 root root   789 Apr 12 19:57 code.pyc
+drwxr-xr-x 2 root root  4096 Apr 12 20:00 [0m[01;34mtemplates[0m
+-rw-r--r-- 1 root root 65536 Apr 12 21:17 tracking.md
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   tracking.md[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# 
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# 
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# 
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# git add tracking.md 
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   tracking.md[m
+
+]0;root@rocky: ~/webpyroot@rocky:~/webpy# git commit
+[?1049h[1;38r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6                              File: /root/webpy/.git/COMMIT_EDITMSG                                                                  [4;1H(B[m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d# On branch master[7d# Your branch is ahead of 'origin/master' by 1 commit.[8d#   (use "git push" to publish your local commits)[9d#[10d# Changes to be committed:[11d#[9Gmodified:   tracking.md[12d#[36;67H(B[0;7m[ Read 10 lines ][37d^G(B[m Get Help[37;25H(B[0;7m^O(B[m WriteOut[37;49H(B[0;7m^R(B[m Read File[37;73H(B[0;7m^Y(B[m Prev Page[37;97H(B[0;7m^K(B[m Cut Text[37;121H(B[0;7m^C(B[m Cur Pos[38d(B[0;7m^X(B[m Exit[38;25H(B[0;7m^J(B[m Justify[38;49H(B[0;7m^W(B[m Where Is[38;73H(B[0;7m^V(B[m Next Page[38;97H(B[0;7m^U(B[m UnCut Text[38;121H(B[0;7m^T(B[m To Spell[3d[1;140H(B[0;7mModified[3d(B[m:[36d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY 
